@@ -1,0 +1,6 @@
+main {
+    display: flex;
+    background-color: var(--light-grey);
+    min-height: 90.5vh;
+    padding: 20px 0 0 0;
+}

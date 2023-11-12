@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.25s;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'IBM Plex Sans', sans-serif; */
+}
+
+:root {
+  --blue-1: #035f06;
+  --blue-2: #6f9cdb;
+  --white-1: white;
+  --light-grey: #e9eaf6;
+  --dark-1:#333448;
+}

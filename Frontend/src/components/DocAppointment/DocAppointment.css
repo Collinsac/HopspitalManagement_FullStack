@@ -1,0 +1,22 @@
+table tbody {
+    font-size: 14px;
+}
+
+.appont table tbody tr :nth-child(2) {
+    color: var(--blue-1);
+}
+
+table tbody tr :nth-child(3) {
+    color: grey;
+}
+
+table tbody tr :nth-child(3) span {
+    color: var(--dark-1);
+}
+
+.appont table tbody tr :last-child div {
+    background-color: var(--light-grey);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 8px;
+}

@@ -1,0 +1,78 @@
+.FormCan {
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.FormCan .secOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0 0 0;
+}
+
+.secOne input , .secOne textarea, .secOne select{
+    flex: 1;
+    border: 2px solid var(--light-grey);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+.secOne .radio {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.radio div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.radio div input,
+.radio div label {
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px 0 0 0;
+    gap: 30px;
+}
+
+.btns button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: 510;
+    font-size: 16.1px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btns button:active{
+    opacity: 0.6;
+}
+.btns .submit {
+    background-color: var(--blue-1);
+    color: var(--white-1);
+}
+
+@media screen and (max-width:700px) {
+    .btns{
+        flex-direction: column;
+    }
+}

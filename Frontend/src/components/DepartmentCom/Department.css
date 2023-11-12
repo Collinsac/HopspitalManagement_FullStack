@@ -1,0 +1,40 @@
+.departments{
+    display: flex;
+    /* background-color: red; */
+    margin: 20px 0;
+    gap: 10px;
+    align-items: center;
+}
+
+.departments .depImage {
+    background-color: var(--light-grey);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.depImage img {
+    width: 30px;
+    height: 30px; 
+}
+
+.departments h3{
+    font-size:16.5px;
+    letter-spacing: 1px;
+}
+
+.departments h4 {
+    color: grey;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.departments h4 span{
+    font-size: 16px;
+    font-weight: 600;
+    
+}

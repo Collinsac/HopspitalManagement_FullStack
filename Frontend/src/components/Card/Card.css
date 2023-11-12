@@ -1,0 +1,28 @@
+.Card {
+    background-color: var(--white-1);
+    padding: 30px;
+    border-radius: 15px;
+    height: 200px;
+    width: 100%;
+}
+
+.Card .icon {
+    padding: 10px;
+    border: 2px solid rgb(200, 200, 200);
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    background-color: var(--light-grey);
+}
+
+.Card h3 {
+    color: var(--dark-1);
+    margin: 10px 0 0 0;
+}
+
+.Card span {
+    color: var(--blue-1);
+    font-size: 50px;
+    font-weight: 700;
+    margin: 40px 0;
+}

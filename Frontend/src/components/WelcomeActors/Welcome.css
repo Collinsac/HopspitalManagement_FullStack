@@ -1,0 +1,49 @@
+.welcomeSec {
+    background-color: var(--white-1);
+    margin: 20px 0 10px;
+    border-radius: 15px;
+    display: flex;
+    /* align-items: center; */
+    height: 170px;
+}
+
+.welcomeSec div{
+    flex: 1;
+}
+
+.welcomeSec .InfoDiv {
+    padding: 40px 0 40px 40px;
+}
+
+.welcomeSec .InfoDiv h2{
+    font-size: 35px;
+    color: var(--blue-1);
+}
+
+.InfoDiv h2 span {
+    color: var(--dark-1);
+}
+.InfoDiv p{
+    font-size:20px ;
+    font-weight: 600;
+    color: var(--dark-1);
+    margin: 0 0 10px 0;
+}
+
+.InfoDiv h4 {
+    font-weight: 500;
+}
+
+.styleSec{
+    background-image: url(../../images/sidebackImage.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.styleSec img {
+    position: absolute;
+    bottom: 0;
+    
+}

@@ -1,0 +1,47 @@
+.IndividualMenu {
+    margin: 20px 0;
+}
+.IndividualMenu .Uppersec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.Uppersec p {
+    color: var(--blue-1);
+}
+
+.Uppersec .Arrow {
+    margin: 0 0 0 auto;
+}
+
+.iconCan {
+    background-color: var(--light-grey);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconCan img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.IndividualMenu .Lowersec {
+    margin: 10px 0 5px 58px;
+
+}
+
+.Lowersec p {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.Lowersec p:hover {
+    color: var(--blue-1);
+}
